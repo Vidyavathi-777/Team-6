@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="top">The Quiz App</div>
+    <div class="container">
+      <div class="quiz">
+        <div class="slide">
+          <div class="question">This is a sample question?</div>
+          <div class="answers">
+            <div class="answer">
+              <input
+                type="radio"
+                name="question1"
+                id="a"
+                value="a Smaple ans 1"
+              />
+              
+              <span>a:sample ans1</span>
+            </div>
+            <div class="answer">
+              <input
+                type="radio"
+                name="question2"
+                id="b"
+                value="b Smaple ans 2"
+              />
+              <span>b:sample ans2</span>
+            </div>
+            <div class="answer">
+              <input
+                type="radio"
+                name="question3"
+                id="c"
+                value="a Smaple ans 1"
+              />
+              <span>:sample ans1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prev-next-btn">
+        <button class="prev" onclick="onPrevious()">Previous</button>
+        <button class="next" onclick="onNext()">Next</button>
+      </div>
+      <div class="sub-btn">
+        <button class="sub" onclick="onSub()">Submit</button>
+      </div>
+      <div class="">
+        <button class="reset" onclick="onReset()">Reset</button>
+      </div>
+      <div class="results"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

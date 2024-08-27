@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+    color: grey;
+}
+.top{
+    padding: 1%;
+    text-align: center;
+    border-bottom: 4px solid black;
+    background-color: rgba(95, 158, 160, 0.812);
+    color: white;
+    font-size:30px;
+    height: 2em;
+}
+.container{
+    background-color:white;
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    
+}
+.quiz .slide .question{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2%;
+}
+.quiz .slide .answers{
+    margin-top:1em ;
+
+}
+
+.quiz .slide .answer{
+    margin-left: 35%;
+    
+}
+.prev-next-btn{
+    text-align: center;
+    margin-top: 1.2em;
+
+}
+.sub-btn{
+    text-align: center;
+    margin-top: 0.6em;
+}
+.prev,.next,.sub{
+    padding: 0.6em;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.next{
+    margin-left: 1em;
+}
